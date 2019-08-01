@@ -104,10 +104,12 @@ section.white article a { color: #245882; border-color: #245882; }
 section.white article a.btn:hover { text-decoration: none; }
 
 section.blue img.long { display: block; float: left; width: 40%; padding-right: 2%; padding-bottom: 1%; }
+section.blue img.longer { display: block; float: left; width: 70%; padding-right: 2%; padding-bottom: 1%; }
 section.blue article.long {padding-left: 0%; padding-bottom: 5%; }
 section.blue article.long a { word-wrap: break-all; }
 
 section.white img.long { display: block; float: left; width: 40%; padding-right: 2%; padding-bottom: 1%; }
+section.white img.longer { display: block; float: left; width: 70%; padding-right: 2%; padding-bottom: 1%; }
 section.white article.long {padding-left: 0%; padding-bottom: 5%; }
 section.white article.long a { word-wrap: break-all; }
 
@@ -533,6 +535,26 @@ footer a:hover { color: #000; }
 	}
 
 	section.white img.long {
+		display: inline;
+		width: 70%;
+		position: relative;
+		margin-left: -35%;
+		padding-left: 50%;
+		padding-right: 10%;
+		padding-bottom: 5px;
+	}
+
+	section.blue img.longer {
+		display: inline;
+		width: 70%;
+		position: relative;
+		margin-left: -35%;
+		padding-left: 50%;
+		padding-right: 10%;
+		padding-bottom: 5px;
+	}
+
+	section.white img.longer {
 		display: inline;
 		width: 70%;
 		position: relative;
