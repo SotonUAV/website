@@ -104,6 +104,7 @@ section.white article a { color: #245882; border-color: #245882; }
 section.white article a.btn:hover { text-decoration: none; }
 
 section.blue img.long { display: block; float: left; width: 40%; padding-right: 2%; padding-bottom: 1%; }
+section.blue img.quotee { display: block; float: right; width: 120px; padding-left: 2%; padding-bottom: 1%;}
 section.blue img.longer { display: block; float: left; width: 70%; padding-right: 2%; padding-bottom: 1%; }
 section.blue article.long {padding-left: 0%; padding-bottom: 5%; }
 section.blue article.long a { word-wrap: break-all; }
@@ -136,6 +137,37 @@ section.map div h2 { color: #fff; }
 section.note { background-color: #fff; padding-top: 30px; padding-bottom: 30px; padding-left: 50px;  padding-right: 50px; color: #245882; }
 section.note a { display: inline-block; color: #245882; text-decoration: none; }
 section.note a:hover { text-decoration: underline; }
+
+/* Blockquote */
+
+section.blue blockquote {
+font-size: 16px;
+font-style: italic;
+margin: 2% 2%;
+padding: 0.35em 40px;
+line-height: 1.45;
+position: relative;
+}
+
+section.blue blockquote:before {
+display: block;
+padding-left: 10px;
+content: "\201C";
+font-size: 80px;
+position: absolute;
+left: -20px;
+top: -20px;
+}
+
+section.blue blockquote cite {
+font-size: 14px;
+display: block;
+margin-top: 5px;
+}
+ 
+section.blue blockquote cite:before {
+content: "\2014 \2009";
+}
 
 /*section.note article { padding: 0 20px 0 515px; min-height: 220px; }*/
 
@@ -424,6 +456,15 @@ footer a:hover { color: #000; }
 	section.blue article.long { font-size: 1em; }
 	section.white article.long { font-size: 1em; }
 
+	section.blue blockquote {
+		font-size: 1em;
+		font-style: italic;
+		margin: 2% 2%;
+		padding: 0.35em 40px;
+		line-height: 1.45;
+		position: relative;
+	}
+
 
 	/* Section - How To */
 	section.details blockquote p.quote { font-size: 1.1em; line-height: 1.2em; }
@@ -534,6 +575,17 @@ footer a:hover { color: #000; }
 		padding-bottom: 5px;
 	}
 
+	section.blue img.quotee {
+		display: inline;
+		width: 40%;
+		position: relative;
+		margin-left: -20%;
+		padding-left: 60%;
+		padding-right: 30%;
+		padding-bottom: 5px;
+		padding-top: 0.35em;
+	}
+
 	section.white img.long {
 		display: inline;
 		width: 70%;
@@ -562,6 +614,35 @@ footer a:hover { color: #000; }
 		padding-left: 50%;
 		padding-right: 10%;
 		padding-bottom: 5px;
+	}
+
+	section.blue blockquote {
+		font-size: 1em;
+		font-style: italic;
+		margin: 2% 2%;
+		padding: 30px 30px 30px 15px;
+		line-height: 1.45;
+		position: relative;
+	}
+
+	section.blue blockquote:before {
+		display: block;
+		padding-left: 10px;
+		content: "\201C";
+		font-size: 60px;
+		position: absolute;
+		left: -20px;
+		top: -20px;
+	}
+
+	section.blue blockquote cite {
+		font-size: 0.8em;
+		display: block;
+		margin-top: 5px;
+	}
+	 
+	section.blue blockquote cite:before {
+		content: "\2014 \2009";
 	}
 
 	/* Section - How To */
