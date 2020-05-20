@@ -182,11 +182,12 @@
 
 				<aside class="white">
 					<div class="content">
-						<a href="#ipanema"><img alt="IPANEMA" src="../images/ipanema-logo.png"></a>
-						<h4><a title="IPANEMA" href="#ipanema">IPANEMA</a></h4>
-						<p>Indigenous Production of robotic Aircraft using Natural and Environmentally-friendly Materials from the Amazon region</p>
+						<a href="#custer"><img alt="CUSTER" src="../images/custer-small.png"></a>
+						<h4><a title="Custer UAV" href="#custer">Custer UAV</a></h4>
+						<p>STOL capable UAV using Custer channel wing sections</p>
 					</div>
 				</aside>
+
 
 				<aside class="blue">
 					<div class="content">
@@ -242,6 +243,14 @@
 						<a href="#berisuas"><img alt="BERISUAS" src="../images/berisuas-small.png"></a>
 						<h4><a title="BERISUAS" href="#berisuas">BERISUAS</a></h4>
 						<p>BEtter Response and Improved Safety through Unmanned Aircraft Systems</p>
+					</div>
+				</aside>
+
+				<aside class="blue">
+					<div class="content">
+						<a href="#ipanema"><img alt="IPANEMA" src="../images/ipanema-logo.png"></a>
+						<h4><a title="IPANEMA" href="#ipanema">IPANEMA</a></h4>
+						<p>Indigenous Production of robotic Aircraft using Natural and Environmentally-friendly Materials from the Amazon region</p>
 					</div>
 				</aside>
 
@@ -413,31 +422,63 @@
 
 			</section>
 
-			<section class="white" id="ipanema">
+			<section class="white" id="custer">
 
-				<h2>IPANEMA</h2>
+				<h2>Custer UAV</h2>
 
-				<img class="long" alt="ipanema" src="../images/ipanema-logo.png">
+				<img class="long" alt="custer" src="../images/custer-collage.png">
 
 				<article class="long">
 					<p>
-						IPANEMA (Indigenous Production of robotic Aircraft using Natural and Environmentally-friendly Materials from the Amazon region)  programme is a first, destined to develop environmentally friendly drone engine Made in the Amazon, by Amazonians, for the Amazon.
+						Custer UAV was developed under the Royal Navy requirement for a light aircraft providing over the horizon reconnaissance and surveillance capabilities, while being operational from the back of the Type 23 frigate.
 					</p>
 
 					<p>
-						The project aims to design a drone that Amazonian communities can build and repair with local resources. They will only need to be sent a small pack of electronics and an engine. These drones will be used to detect fires, which will help the people protect the rainforest. As well as this, sensor data from the drone could be sold to generate a small income for the communities.
+						The STOL capabilities are facilitated using the Custer channel wing sections with propellers run by 480KV electric brushless motors. The 30cc petrol engine on the nose of the aircraft caters for long flight range and propulsion redundancy. The large tail area with a split elevator is designed to ensure sufficient control authority at low speeds, also providing additional actuators redundancy.
 					</p>
 
 					<p>
-						To find out what materials are available, a few of the project members went to the Amazon Rainforest to live in some of the communities and find out what types of wood were used locally.
-					</p>
-					<p>
-						Currently the team is preparing to build the first prototype with similar-property materials in Southampton. The project has collaboration with UFAM in Brazil who are developing the payload and the drone automation.
+						The Southampton Custer UAV uses a pair of Hacker electric motors and controllers linked to a Pixhawk autopilot running a fully customised airframe stabilisation program that mixes the thrust from each duct with the settings of the split elevators, ailerons and rudder to achieve stable flight at very low forward speeds when the ailerons effectiveness is very low. Since the Custer ducts generate lift directly related to the thrust being produced, roll control can be maintained using differential thrust combined with the split elevators, while the large rudders provide yaw control. Note that fully moving elevators positioned in the duct slipstream are used. 
 					</p>
 
 					<p>
-						For more information see the <a title="www.crowdfunder.co.uk/ipanema" href="https://www.crowdfunder.co.uk/ipanema">IPANEMA crowd funding webpage.</a>
+						As with the other platforms, the airframe is largely made of laser sintered (3D-printed) parts and carbon fibre spars, allowing for fast manufacturing and simple maintenance on-board of the vessels, requiring minimal manual finishing.
 					</p>
+					<p>
+						The Custer wing duct also known as a channel wing was initially developed by the Custer Channel Wing Corporation in the 1950s’ and the 1960s’. Here it is applied to a small UAV making extensive used of 3D laser printing. Such aircraft are generally not operated from long smooth runways and rarely have complex high lift systems in their wings. By using suitable ducts around the propellers and an advanced control system, startlingly good take-off and landing performance can be achieved.
+					</p>
+
+					<div id="custer-video" style="display:none;">
+
+					<a href="#">
+					<img alt="Custer UAV STOL demonstration"
+						data-type="youtube"
+						src="../images/custer-small.png"
+						data-image="../images/custer-small.png"
+						data-videoid="nz-QEdNT1xA"
+						data-description="Custer UAV STOL demonstration">
+					</a>
+
+					</div>
+
+	
+					<script type="text/javascript">
+
+						jQuery(document).ready(function(){
+
+							jQuery("#custer-video").unitegallery({
+								gallery_theme: "tilesgrid",
+								tile_width: 800,
+								tile_height: 450,
+								gallery_background_color: "#ffffff",
+								tile_background_color: "#ffffff",
+								tile_enable_border:false,
+								tile_enable_shadow:false
+							});
+
+						});
+						
+					</script>
 					
 					<a class="btn" title="Back to the top" href="#top">Back to the top</a>
 				</article>
@@ -726,6 +767,37 @@
 						
 					</script>
 
+					<a class="btn" title="Back to the top" href="#top">Back to the top</a>
+				</article>
+
+			</section>
+
+			<section class="blue" id="ipanema">
+
+				<h2>IPANEMA</h2>
+
+				<img class="long" alt="ipanema" src="../images/ipanema-logo.png">
+
+				<article class="long">
+					<p>
+						IPANEMA (Indigenous Production of robotic Aircraft using Natural and Environmentally-friendly Materials from the Amazon region)  programme is a first, destined to develop environmentally friendly drone engine Made in the Amazon, by Amazonians, for the Amazon.
+					</p>
+
+					<p>
+						The project aims to design a drone that Amazonian communities can build and repair with local resources. They will only need to be sent a small pack of electronics and an engine. These drones will be used to detect fires, which will help the people protect the rainforest. As well as this, sensor data from the drone could be sold to generate a small income for the communities.
+					</p>
+
+					<p>
+						To find out what materials are available, a few of the project members went to the Amazon Rainforest to live in some of the communities and find out what types of wood were used locally.
+					</p>
+					<p>
+						Currently the team is preparing to build the first prototype with similar-property materials in Southampton. The project has collaboration with UFAM in Brazil who are developing the payload and the drone automation.
+					</p>
+
+					<p>
+						For more information see the <a title="www.crowdfunder.co.uk/ipanema" href="https://www.crowdfunder.co.uk/ipanema">IPANEMA crowd funding webpage.</a>
+					</p>
+					
 					<a class="btn" title="Back to the top" href="#top">Back to the top</a>
 				</article>
 
